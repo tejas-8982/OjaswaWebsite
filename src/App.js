@@ -7,7 +7,7 @@ import Team from './Pages/Team';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-
+import Sponsors from './Pages/Sponsors';
 
 const App = () => {
   return (
@@ -18,6 +18,7 @@ const App = () => {
            <Route path='/' element={<Home />} />
            <Route path='/about' element={<Aboutus/>} />
            <Route path='/events' element={<Events />} />
+           <Route path='/sponsors' element={<Sponsors/>}/>
            <Route path='/team' element={<Team />} />
            <Route path='/contact' element={<Contact/>}/>
         </Routes>
