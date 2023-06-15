@@ -32,11 +32,11 @@ const Navbar = () => {
         <Link to='/team'>Team</Link>
         <Link to='/contact'>Contact</Link>
       </div>
-      <div className='logo'>
+      {/* <div className='logo'>
         <InstagramIcon className='icon' style={{ color: '#C32AA3' }} />
         <LinkedInIcon className='icon' style={{ color: '#0077B5' }} />
         <FacebookIcon className='icon' style={{ color: '#1877F2' }} />
-      </div>
+      </div> */}
     </div>
   );
 };

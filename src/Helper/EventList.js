@@ -1,4 +1,4 @@
-import car1 from '../Assets/car1.jpeg';
+import car1 from '../Assets/Judicia.jpeg';
 
 export const EventList = [
     {

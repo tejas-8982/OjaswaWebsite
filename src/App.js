@@ -9,25 +9,27 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Sponsors from './Pages/Sponsors';
 
-const App = () => {
+
+
+function App() {
   return (
     <div>
       <Router>
-      <Navbar />
+        <Navbar />
         <Routes>
-           <Route path='/' element={<Home />} />
-           <Route path='/about' element={<Aboutus/>} />
-           <Route path='/events' element={<Events />} />
-           <Route path='/sponsors' element={<Sponsors/>}/>
-           <Route path='/team' element={<Team />} />
-           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<Aboutus />} />
+          <Route path='/events' element={<Events />} />
+          <Route path='/sponsors' element={<Sponsors />} />
+          <Route path='/team' element={<Team />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
-       
+
         <Footer />
       </Router>
-      
+
     </div>
-  )
+  );
 }
 
 export default App
