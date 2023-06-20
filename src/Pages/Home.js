@@ -15,10 +15,9 @@ We further aim to foster new mindsets and re-shape them into better ethos.
       </p>
       </div>
       <div className='gallery'>
-    
-      <h1>Gallery</h1>
+ 
       <Gallery/>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquam facere nesciunt, quidem voluptatum corrupti sed voluptatibus tenetur reprehenderit quo laborum explicabo itaque officiis architecto inventore consequatur fugiat amet dolorem!Lorem</p>
+      
       </div>
     </div>
   )
