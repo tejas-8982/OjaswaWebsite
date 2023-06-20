@@ -1,30 +1,71 @@
 import React from 'react';
 import '../Styles/Contact.css';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
 const Contact = () => {
   return (
-    <div className='container'>
-    <h1>Contact us</h1>
-      <div className='form'>
-        <form>
-          <input type='text' placeholder='Name' /><br />
-          <input type='email' placeholder='Email' /><br />
-          <input type='number' placeholder='Phone' /><br />
-          <input type='text' placeholder='Message' className='textarea'/><br />
-          <input type='submit' value='Submit' />
-        </form>
+
+
+    <><section className='contactus'>
+      <div className='content'>
+        <h2>Contact Us</h2>
+        <p> OJASWA : The official personality development club of S.G.S.I.T.S. Indore</p>
       </div>
-      <div className='map'>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1185.3889007891798!2d75.86992955228132!3d22.725417455953142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd207d998231%3A0x3567dbee7cdafff1!2sStudent%20Activity%20Centre%20(SAC)!5e0!3m2!1sen!2sin!4v1686303470275!5m2!1sen!2sin"
-          width="300"
-          height="200"
-          style={{ border: "0" }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+
+      <div className='container1'>
+
+        <div class='contactform2'>
+          <form>
+            <h2>Enter Details</h2>
+            <div className='details-area'>
+              <input type='text' placeholder='First Name' required="required" /><br />
+              <input type='text' placeholder='Last Name' /><br />
+              <input type='email' placeholder='Email' /><br />
+              <input type='number' placeholder='Phone no.' /><br />
+              <div className='msg-area'>
+                <input type='message' placeholder='Message here...' /><br />
+              </div>
+              <button type='submit' placeholder='Submit'>Submit </button>
+            </div>
+          </form>
+
+        </div>
+
+        <div class='contactform1'>
+          <div className='contactinfo'>
+            <div className='box'>
+              <div className='icon'><LocationOnIcon /></div>
+              <div className='text1'>
+                <h3>Address</h3>
+                <p> 23 Sir M. Visvesvaraya Marg,<br />
+                  Indore,<br /> Madhya Pradesh<br /> 452003
+                </p>
+              </div>
+            </div>
+
+            <div className='box'>
+              <div className='icon'><PhoneIcon /></div>
+              <div className='text1'>
+                <h3>Phone </h3>
+                <p>xxxx-xxx-xxxx</p>
+              </div>
+            </div>
+
+            <div className='box'>
+              <div className='icon'><EmailIcon /></div>
+              <div className='text1'>
+                <h3>Email</h3>
+                <p>xxxxx@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
-    </div>
+    </section >
+    </>
   );
 };
 
