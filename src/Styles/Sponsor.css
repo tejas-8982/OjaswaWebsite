@@ -3,8 +3,17 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg);
+    /* background-image: url(https://images.unsplash.com/photo-1513728731559-6bf2c0c931f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGNsb3VkfGVufDB8fDB8fHww&w=1000&q=80); */
   }
-  
+  h1{
+    margin: 2rem;
+    color:aquamarine;
+    &:hover{
+      color: aliceblue;
+      
+    }
+  }
   .sponsorList {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
@@ -29,8 +38,13 @@
   }
   
   h3 {
-    font-size: 16px;
+    font-size: 22px;
     margin: 0;
+    color:chocolate;
+    font-family: 'Courier New', Courier, monospace;
+    &:hover{
+      color: aliceblue;
+    }
   }
   /* Responsive Styles */
 @media screen and (max-width: 768px) {

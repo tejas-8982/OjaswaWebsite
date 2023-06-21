@@ -9,7 +9,7 @@ const Sponsors = () => {
       <h1>Event Sponsors</h1>
       <div className='sponsorList'>
       { SponsorList.map((sponsor)=>{
-        return <Sponsoritem name={sponsor.name} image={sponsor.image} eventname={sponsor.eventname}/>
+        return <Sponsoritem name={sponsor.name} image={sponsor.image} eventname={sponsor.eventname} />
       })}
       </div>
     </div>
