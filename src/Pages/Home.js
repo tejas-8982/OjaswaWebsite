@@ -1,7 +1,8 @@
 import React from 'react'
 import Content from '../Components/Content'
 import "../Styles/Aboutus.css";
-import Gallery from '../Components/Gallery'
+import Sldr from '../Components/Sldr'
+
 const Home = () => {
   return (
     <div>
@@ -14,11 +15,10 @@ Founded with a vision of enhancing personality and nurturing humanity, Club Ojas
 We further aim to foster new mindsets and re-shape them into better ethos.
       </p>
       </div>
-      <div className='gallery'>
+   
  
-      <Gallery/>
-      
-      </div>
+  <Sldr/>
+     
     </div>
   )
 }

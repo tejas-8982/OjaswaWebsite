@@ -1,0 +1,60 @@
+/* body {
+	
+	min-height: 100px;
+	place-items: center;
+} */
+
+.sdr{
+	
+	height: 250px;
+	margin: auto;
+	position: relative;
+	width: 90%;
+	display: grid;
+	place-items: center;
+	overflow: hidden;
+	
+}
+
+.sd-track{
+	
+	display: flex;
+	width: calc(250px * 10);
+	animation: scroll 30s linear infinite;
+	
+}
+
+
+ @keyframes scroll{
+	
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(calc(-250px * 5));
+	}
+}
+
+
+
+.sd{
+	height: 200px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	perspective: 100px;
+	
+}
+
+ img{
+	width: 100%;
+	transition: transform 1s;
+	
+}
+
+
+img:hover{
+	transform: translateZ(20px);
+}
+
